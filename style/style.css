@@ -1,0 +1,560 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: auto;
+  height: 130rem;
+background-color: white;
+}
+
+/* nab bar css */
+.container div.nav {
+  background-color: rgba(238, 139, 10, 0.948);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  height: 4rem;
+ width: 100%;
+ position: fixed;
+ top: 0;
+ white-space: nowrap;
+z-index: 999;
+}
+
+
+
+.container .nav h1 {
+  padding-left: 1rem;
+  font-weight: bold;
+  font-size: x-large;
+  width: 13rem;
+  flex-flow: row;
+  color: white;
+
+}
+
+.container .nav img {
+  float: left;
+  width: 15rem;
+  height: 4rem;
+  margin-left: 2rem;
+
+}
+
+.container .nav ul {
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+
+  height: 4rem;
+  padding-left: 20rem;
+}
+
+.container .nav ul li {
+  background-color: inherit;
+  list-style-type: none;
+  padding: 0rem 2rem;
+
+}
+
+.container .nav ul li a {
+  background-color: inherit;
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+
+}
+
+.container .nav ul li .active {
+  padding: 1.2rem 2rem;
+
+  margin: none none;
+  background-color: rgb(206, 193, 184);
+}
+
+
+
+
+/* header css */
+.container .header {
+  height: 25rem;
+  text-align: center;
+  margin: 2rem 0rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.container .header .middle-img {
+  height: 20rem;
+  width: 35rem;
+  position: absolute;
+  z-index: 1;
+  top: 8rem;
+  right: 6rem;
+  border-radius: 50% 0 0 50%;
+}
+
+/* left side */
+.container .header .leftside {
+  width: 30%;
+  background-color: rgb(206, 193, 184);
+}
+
+/* right side*/
+.container .header .right-side {
+  width: 50%;
+  height: 40rem;
+  margin-right: 20%;
+  padding-top: 1rem;
+ 
+}
+
+.container .header .right-side img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+
+}
+
+.container .header .right-side h1 {
+  color: rgb(138, 101, 7);
+  font-family: sans-serif;
+  font-weight: 800;
+  padding: 0.5rem 0;
+}
+
+.container .header .right-side p {
+  padding: 0.5rem 0;
+  font-size: 22px;
+
+}
+
+.container .header .right-side button {
+
+  padding: 15px 50px;
+  font-size: large;
+  border-radius: 5rem;
+  border-radius: 20px;
+  color: blueviolet;
+  border: solid 1px blueviolet;
+  background-color: white;
+}
+
+.container .header .right-side #enroll {
+  background-color: rgb(12, 246, 12);
+  color: black;
+  border-radius: 50px;
+  height: 60px;
+  margin: 3px;
+  border: none;
+}
+
+.container .header .right-side #classroom {
+  color: gold;
+  border: 1px solid gold;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+}
+
+
+ 
+section h1{
+ background-color: whitesmoke;
+  color: rgb(62, 88, 11);
+  font-family:  Verdana, sans-serif;
+  font-size: xx-large;
+  padding: 5rem 5rem 2rem 5rem;
+}
+ .small{
+  font-size: small;
+ }
+
+.container .courses {
+ background-color: whitesmoke;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 30rem;
+ 
+}
+
+.container .courses .course {
+
+  background-color: rgb(206, 193, 184);
+  height: 23rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 2px solid rgb(203, 145, 11);
+  box-shadow: 7px 7px 1px rgb(63, 58, 58);
+  border-radius: 2rem;
+  margin-left: 2rem;
+}
+
+.container .courses .course img {
+  height: 10rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
+
+}
+.container .courses .course h2 {
+ padding-bottom: 5px ;
+}
+.container .courses .course .join{
+  background-color: rgb(8, 233, 8);
+  color: black;
+  border-radius: 60px;
+  height: 40px;
+  width: 80px;
+  margin-top: 3px;
+  border: none;
+  margin-left: 5rem;
+}
+
+
+
+/* lectures */
+.container #instructors{
+  margin-top: 50px;
+  height: 25rem;
+ background-color: whitesmoke;
+  color: rgb(62, 88, 11);
+}
+.container #instructors h1{
+ padding-top: 2rem;
+}
+ .container #instructors .lectures {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 20rem;
+ background-color: whitesmoke;
+  color: rgb(203, 145, 11);
+}
+
+ .container #instructors .lectures .lect {
+ background-color: rgb(39, 38, 38);
+height: 280px;
+width: 250px;
+margin: 2rem 0 1rem 0;
+margin-right: 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+}
+ .container #instructors .lectures .lect img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 5px 0;
+}
+
+ .container #instructors .lectures .lect p {
+  color: rgb(206, 193, 184);
+  font-size: small;
+}
+ 
+
+
+/* contact css */
+
+.container .contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .contact h1{
+  color: rgb(62, 88, 11);
+  margin-top: 5rem;
+ 
+}
+
+.container .contact #slack{
+  color: white;
+  font-size: larger;
+  border: 1px solid gold;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 130px;
+  height: 50px;
+  border-radius: 10px;
+  background-color:  rgb(203, 145, 11);
+}
+
+ .container .location{
+  background-color:  rgb(203, 145, 11);
+ }
+ .container .location iframe{
+  margin-left: 200px;
+  width: 1000px;
+  height: 205px;
+  border: 2px solid rgb(203, 145, 11) ;
+  border-radius: 20px;
+ }
+
+
+ 
+
+
+/* footer */
+footer {
+  padding: 20px;
+  background-color: rgb(206, 193, 184);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  justify-content: space-between;
+
+}
+
+footer .container {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  padding-left: 50px;
+  border-radius: 2rem;
+
+}
+
+footer .container .bootcamp-info {
+
+  padding: 2rem 2rem 0rem 0rem;
+}
+
+footer .container .bootcamp-info h2 {
+  color: rgba(238, 139, 10, 0.948);
+}
+
+footer .container .bootcamp-info img {
+  float: left;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem 1rem 2rem 1rem;
+
+}
+
+footer .container .section {
+  padding: 10px 0 0 10px;
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  justify-content: space-around;
+
+
+}
+
+footer .container .section .sub {
+  padding-right: 50px;
+
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+
+
+}
+
+footer .container .section .sub h4 {
+  color: rgba(238, 139, 10, 0.948);
+  padding-bottom: 10px;
+}
+
+footer .container .section .sub ul li {
+  padding-bottom: 10px;
+}
+footer .container .section .sub ul li a {
+   text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+footer .container .qoraal h2 span {
+  color: rgba(238, 139, 10, 0.948);
+}
+
+footer h3 {
+  font-weight: 400;
+  color: rgba(238, 139, 10, 0.948);
+  padding-bottom: 10px;
+  padding-top: 15px;
+  font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+/* about.html css */
+
+#container{
+  height: 280vh;
+}
+.container .section1 {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+   height: 400px;
+ 
+   
+}
+.container .section1 h6{
+  font-weight: lighter;
+  font-size: small;
+  padding-bottom:  20px;;
+}
+.container .section1 h1{
+  color: rgb(62, 88, 11);
+}
+.container .section1 h3{
+  padding-bottom:  20px;;
+}
+.container .section1 .sub-sec1{
+  display: flex;
+  flex-direction: row;
+   height: 250px;
+ 
+  width: 800px;
+  
+
+}
+.container .section1 .sub-sec1 .sub{
+  background-color: rgb(231, 231, 231);
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  height: 90%;
+padding: 20px;
+border-radius: 20px;
+}
+
+.container .section1 .sub-sec1 .sub .fa{
+height: 45px;
+width: 60px;
+border-radius: 50%;
+color: white;
+background-color:  rgb(203, 145, 11);
+padding-top: 10px;
+
+}
+
+
+.container .section2 {
+ 
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+   height: 250px;
+ background-color: rgb(225, 223, 223);
+   
+}
+.container .section2 h6{
+  font-weight: lighter;
+  font-size: small;
+  padding-bottom:  10px;
+}
+.container .section2 h1{
+  padding-bottom:  10px;
+  color: rgb(62, 88, 11);
+}
+.container .section2 .sub-sec2{
+  display: flex;
+  flex-direction: row;
+   height: 250px;
+
+
+}
+.container .section2 .sub-sec2 .sub{
+  background-color: white;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  height: 100px;
+  padding: 20px;
+  width: 200px;
+  border-radius: 20px;
+}
+.container .section2 .sub-sec2 .sub h3{
+  padding-top: 20px;
+}
+.container .section2 .sub-sec2 .sub .fa{
+height: 45px;
+width: 60px;
+border-radius: 50%;
+color: white;
+background-color:  rgb(203, 145, 11);
+padding-top: 10px;
+
+}
+
+
+
+/* section 3 */
+
+.container .section3{
+   background-image: url(/img/bgc2.png);
+   background-repeat: none;
+   background-position: center;
+   background-size: cover;
+}
+.container .section3 .form{
+  height: 35rem;
+  width: 500px;
+  background-color:rgb(213, 208, 208);
+  margin: 0rem 25rem;
+ border-radius: 5px;
+  display: flex;
+  font-size:x-large;
+  flex-direction: column;
+  margin-top: 5rem;
+  padding: 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container .section3 .form h2{
+  color:  rgb(203, 145, 11);
+  margin-left: 50px;
+}
+.container .section3 .form label{
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  font-size:x-large;
+
+}
+.container .section3 .form input{
+   padding: 15px;
+   border-radius: 20px;
+}
+.container .section3 .form input:last-child{
+  padding: 50px 20px;
+  border: 1px solid rgb(192, 29, 29);
+}
+.container .section3 .form .btn button{
+  border-radius: 20px;
+  background-color:  rgb(203, 145, 11);
+  padding: 20px 80px;
+  border-radius: 5rem;
+  margin-top: 2rem;
+  font-weight: bold;
+ }
